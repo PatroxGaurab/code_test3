@@ -23,7 +23,7 @@ module.exports.profileRead = function(req, res) {
 		var userparams = {
 			// Required, will throw exception otherwise 
 			"nonce": nonce,
-			"external_id": "tt",
+			"external_id": "tt123",
 			"email": user.email,
 			// Optional 
 			"username": user.name

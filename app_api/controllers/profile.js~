@@ -24,9 +24,9 @@ module.exports.profileRead = function(req, res) {
 			// Required, will throw exception otherwise 
 			"nonce": nonce,
 			"external_id": user._id,
-			"email": user.email,
+			"email": "x@y.com",
 			// Optional 
-			"username": user.name
+			"username": "Hard Coded"
 			//"name": "Gaurab Patra"
 		};
 		var q = sso.buildLoginString(userparams);
